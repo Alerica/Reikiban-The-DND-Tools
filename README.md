@@ -100,9 +100,3 @@ This section outlines the major features and core scripts that power Reikiban’
 **Reikiban** is a sandbox for storytelling and encounter-building. It’s inspired by digital tools like *Roll20*, but focused on **local control**, **offline tools**, and **custom extensions**. Future features may include dice rolling, card draws, and game-state saving.
 
 ---
-
-## Status 🚧 
-
-This project is in **active development**. Systems may change or expand as features are added.
-
----
