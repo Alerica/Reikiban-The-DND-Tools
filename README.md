@@ -61,24 +61,50 @@ This section outlines the major features and core scripts that power Reikiban’
 
 ---
 
+## Example Implementation of Token System
+<img src="https://github.com/Alerica/Reikiban-The-DND-Tools/blob/main/Reikiban.png" alt="1" style="width:100%;height:auto;">
+
 ## Networking (Experimental)  🌍 
 
 - Reikiban includes early-stage support for **multiplayer Dungeon Master sessions** using **Unity NetCode**.
 - The `NetworkUI.cs` handles player connections and basic data sync.
-- Multiplayer development is still a work-in-progress and may not be stable.
 
 ---
 
 ## Features Summary ⚙️ 
-
 - Zoomable, pannable camera  
 - Dungeon Master controls  
 - Multi-layered map editing  
 - Map import & switching  
 - Token creation and control  
 - Experimental multiplayer support
-
 ---
+
+## File Structure
+Here`s how the file structure looks like (not the final version)
+
+```text
+Scripts
+├─ Characters
+│  └─ CharacterInfo.cs
+│
+├─ Handler
+│  ├─ CameraMover.cs
+│  ├─ DiceRoller.cs
+│  ├─ UIDragHandler.cs
+│
+├─ Setup
+│  ├─ PlayerData.cs
+│  ├─ PlayerDataHolder.cs
+│  ├─ PlayerSetupManager.cs
+│  └─ PlayerSetupUI.cs
+│
+└─ Token
+   ├─ TokenContextMenu.cs
+   ├─ TokenController.cs
+   ├─ TokenRightClickHandler.cs
+   └─ TokenSpawner.cs
+```
 
 ## Controls  🎮 
 
